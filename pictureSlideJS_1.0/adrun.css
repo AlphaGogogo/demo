@@ -1,0 +1,22 @@
+#tab{
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+}
+div>img:not(:first-child){
+	display: none;
+}
+.circle{
+	position: relative;
+	top:-15px;
+	float: left;
+	width: 10px;
+	height: 10px;
+	border: 1px solid;
+	border-radius: 50% 50%;
+	text-align: center;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+
